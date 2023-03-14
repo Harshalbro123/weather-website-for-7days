@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body onload="DefaultScreen()">
+    <centre>
+        <h1 id="Para1">7 Days Weather Forecast</h1>
+        <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+        <button type="button" onclick="GetInfo()"><div>Click Here</div></button>
+        <h2 id="cityName">--Pune--</h2>
+    </centre>
+
+    <div id = "weatherContainer">
+        <div id="iconsContainer">    
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day1"></p>
+               
+                <p class="minValues" id="day1Min"></p>
+                <p class="maxValues" id="day1Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day2"></p>
+                
+                <p class="minValues" id="day2Min"></p>
+                <p class="maxValues" id="day2Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day3"></p>
+               
+                <p class="minValues" id="day3Min"></p>
+                <p class="maxValues" id="day3Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day4"></p>
+               
+                <p class="minValues" id="day4Min"></p>
+                <p class="maxValues" id="day4Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day5"></p>
+               
+                <p class="minValues" id="day5Min"></p>
+                <p class="maxValues" id="day5Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day6"></p>
+               
+                <p class="minValues" id="day6Min"></p>
+                <p class="maxValues" id="day6Max"></p>
+            </div>
+            <div class = "icons">
+                <div class="date" id="date"></div>
+                <p class="weather" id="day7"></p>
+               
+                <p class="minValues" id="day7Min"></p>
+                <p class="maxValues" id="day7Max"></p>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="main.js"></script>
+
+
+</body>
+</html>

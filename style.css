@@ -1,0 +1,84 @@
+* {
+    font-size: 21px;
+    color: #131212;
+    background: #8888b9;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    width: 506px;
+    font-size: 38px;
+
+}
+#cityInput {
+    margin: auto;
+    display: flex;
+    padding: 7px;
+    width: 300px;
+
+}
+
+#inputContainer {
+    font-size: 31px;
+    margin: auto;
+    display: flex;
+    padding: 7px;
+    width: 300px;
+    font-weight: bold;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    width: 10%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button div {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+#cityName {
+    display: flex;
+    margin: auto;
+    width: 150px;
+    border: 3px solid black;
+    margin-top: 26px;
+    margin-bottom: 13px;
+    padding: 9px;
+}
+
+
+#iconsContainer {
+    display: flex;
+    margin: auto;
+}
+
+.icons {
+    border: 3px solid red;
+    width: 19%;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    align-items: center;
+
+}
+
+.weather {
+    color: green;
+    font-weight: bold;
+}
+
+.minValues,
+.maxValues {
+    font-weight: bold;
+}
